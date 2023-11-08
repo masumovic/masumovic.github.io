@@ -8,7 +8,7 @@ header {
 nav ul {
     list-style: none;
     display: flex;
-    justify-content: center; /* Center align menu horizontally */
+    justify-content: left; /* Center align menu horizontally */
 }
 
 nav ul li {
