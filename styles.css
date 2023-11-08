@@ -12,9 +12,9 @@ nav ul {
 }
 
 nav ul li {
-    margin-right: 100px;
+    margin-right: 70%;
 }
 
 nav ul li:last-child {
-    margin-right: 100px;
+    margin-right: 10px;
 }
