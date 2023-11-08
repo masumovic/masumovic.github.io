@@ -1,42 +1,58 @@
-<!DOCTYPE HTML>
-<!-- THE DOCTYPE tells the browser what type of webpage to render, the doctype used in this website is HTML5 which is the most recent HTML. -->
-<html lang="en-US">
+<!DOCTYPE html>
+<html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<title>My Pimpin Website</title>
-	<!-- THE TITLE element is the name of the page, it is also visible in the browser tab. Its always good practice to give each page an appropriate title. -->
-	<meta name="description" content="A sample website, nothin fancy">
-      <meta http-equiv="author" content="Francisco Campos Arias">
-      <meta name="keywords" content="html, css, web, design, sample, practice">
-      <!-- These are META TAGS, they're used to describe the website, this information is read mainly by search engines like GOOGLE, YAHOO, ETC... -->	
-	<link rel="stylesheet" href="style.css">
-	<script src="http://localhost:8080/target/target-script-min.js#anonymous"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me - [Your Name]</title>
+    <link rel="stylesheet" href="styles.css"> <!-- You can link to an external CSS file for styling -->
 </head>
 <body>
-	<div class="container">
-<!-- THIS ACTUAL CONTENT BEGINS HERE...this is called a comment. which can only be seen when viewing the source code. This text CANNOT be seen by the browser. Its helpful when you need to place notes, comments or reminders in your code -->
-	<header>
-		<div class="header">
-			<h1>Welcome</h1>
-		</div>
-	</header>
-	<!-- END HEADER | the header element in new to HTML5 -->
-		<div class="main">
-			<h2>This is just an example with some web content. This is the Hero Unit.</h2>
-		</div>
-		<div class="feature">
-			<h3>Featured Content 1</h3>
-			<p>lorem ipsum dolor amet lorem ipsum dolor ametlorem ipsum dolor ametlorem ipsum dolor ametlorem ipsum dolor ametlorem ipsum dolor ametlorem ipsum dolor ametlorem ipsum.</p>
-			<!-- LOREM IPSUM is universally used. Lorem ipsum is dummy text, it does't really mean anything. Its used to fill space or for mockups. -->
-		</div>
-		<div class="feature">
-			<h3>Featured Content 2</h3>
-			<p>lorem ipsum dolor amet lorem ipsum dolor ametlorem ipsum dolor ametlorem ipsum dolor ametlorem ipsum dolor ametlorem ipsum dolor ametlorem ipsum dolor ametlorem ipsum dolor.</p>
-		</div>
-	<footer>
-		&copy;2012 Francisco Campos Arias, All Rigts Reserved.
-	</footer>
-	<!-- END FOOTER | the footer element is also new to HTML5 -->
-	</div>
+<header>
+        <img src="images/logo.png" alt="Your Logo"> <!-- Add your logo image -->
+        <h1>About Me</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#research">Research</a></li>
+            <li><a href="#publications">Publications</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="about">
+        <h2>About</h2>
+        <p>Welcome to my academic website. I am Maša Avakumović, a PhD Candidate at the University of Hamburg. This website serves as a platform to share information about my research, publications, and contact details.</p>
+    </section>
+
+    <section id="research">
+        <h2>Research</h2>
+        <p>My research interests include pattern recognition of extreme events in the climate system. I am passionate about mathematics and its application and have been involved in various projects and collaborations in this field.</p>
+    </section>
+
+    <section id="publications">
+        <h2>Publications</h2>
+	<p>Climate related:</p>
+        <ul>
+            <li> soon </</li>
+            
+        </ul>
+        <p>Misc</p>
+        <ul>
+            <li>[Publication Title 1]</</li>
+            <li>[Publication Title 2]</</li>
+            <li>[Publication Title 3]</</li>
+        </ul>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>If you would like to get in touch with me, you can reach me at masa.avakumovic@uni-hamburg.de.</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Maša Avakumović</p>
+    </footer>
 </body>
 </html>
